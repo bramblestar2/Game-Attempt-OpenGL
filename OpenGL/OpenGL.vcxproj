@@ -131,12 +131,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Graphics\Color.cpp" />
+    <ClCompile Include="Graphics\Rect.cpp" />
+    <ClCompile Include="Graphics\Source Files\Shape2D.cpp" />
+    <ClCompile Include="Graphics\Vector.cpp" />
+    <ClCompile Include="Graphics\View.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Source Files\Misc.cpp" />
     <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dependencies\json.hpp" />
+    <ClInclude Include="Graphics\Color.h" />
+    <ClInclude Include="Graphics\Headers\Shape2D.h" />
+    <ClInclude Include="Graphics\Rect.h" />
+    <ClInclude Include="Graphics\Vector.h" />
+    <ClInclude Include="Graphics\View.h" />
+    <ClInclude Include="Headers\Misc.h" />
+    <ClInclude Include="Shapes\View.h" />
     <ClInclude Include="Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info\Controls.json" />
+    <None Include="Info\Game Settings.json" />
+    <None Include="Info\README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

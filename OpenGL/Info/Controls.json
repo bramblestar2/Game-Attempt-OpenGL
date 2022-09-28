@@ -1,0 +1,15 @@
+{
+    "Action": {
+        "Attack": 75,
+        "Interact": 257,
+        "Inventory": 73,
+        "Menu": 77
+    },
+    "Auto Set": false,
+    "Movement": {
+        "Down": 83,
+        "Left": 65,
+        "Right": 68,
+        "Up": 87
+    }
+}

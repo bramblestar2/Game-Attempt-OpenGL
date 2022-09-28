@@ -1,5 +1,6 @@
 #pragma once
 #include <GLFW/glfw3.h>
+
 class Window
 {
 public:
@@ -13,6 +14,7 @@ public:
 
 private:
 	void initWindow();
+	void checkSettings();
 
 	double dt, last_time_update;
 
