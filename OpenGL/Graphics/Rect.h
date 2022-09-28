@@ -8,7 +8,7 @@ public:
 	Rect(T Left, T Top, T Width, T Height);
 	Rect();
 
-	bool contains(Vector<T> point);
+	bool contains(Vector2<T> point);
 	bool intersects(Rect<T> rectangle);
 
 	T left, top, width, height;

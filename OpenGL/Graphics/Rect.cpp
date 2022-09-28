@@ -13,14 +13,19 @@ Rect<T>::Rect()
 	init(0, 0, 0, 0);
 }
 
+//Returns true if point is inside the rect
 template<typename T>
-bool Rect<T>::contains(Vector<T> point)
+bool Rect<T>::contains(Vector2<T> point)
 {
+	if (point.x > left && point.x < left + width)
+		if (point.y > top && point.y < top + height)
+			return true;
+
 	return false;
 }
 
 template<typename T>
-bool Rect<T>::intersects(Rect<T> rectangle)
+bool Rect<T>::intersects(Rect<T> a)
 {
 	return false;
 }

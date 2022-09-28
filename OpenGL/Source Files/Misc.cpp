@@ -14,3 +14,8 @@ void Misc::setJSON(std::string file, json jsonFile)
     std::ofstream info(file);
     info << std::setw(4) << jsonFile;
 }
+
+float Misc::lerp(float a, float b, float t)
+{
+    return a + t * (b - a);
+}

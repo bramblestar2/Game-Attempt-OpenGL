@@ -156,6 +156,9 @@
     <None Include="Info\Game Settings.json" />
     <None Include="Info\README.md" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Info\Control Layout.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

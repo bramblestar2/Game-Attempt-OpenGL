@@ -8,6 +8,8 @@ public:
 	Shape2D();
 	virtual ~Shape2D();
 
+	virtual void move(Vector2f);
+
 	virtual int setSize(const float WIDTH, const float HEIGHT);
 	virtual int setPosition(float x, float y);
 	virtual void setColor(GLfloat r, GLfloat g, GLfloat b, GLfloat a);
@@ -23,6 +25,7 @@ public:
 private:
 	virtual void init();
 
+	Vector2f offsetPos;
 	Vector2f position;
 	Vector2f size;
 };
