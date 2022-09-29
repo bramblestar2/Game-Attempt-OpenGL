@@ -9,8 +9,6 @@
 
 int main(void)
 {
-    GLFW_KEY_A;
-
     Window window;
 
     window.run();

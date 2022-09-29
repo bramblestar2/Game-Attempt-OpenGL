@@ -52,7 +52,7 @@
       <Filter>Source Files\System</Filter>
     </ClCompile>
     <ClCompile Include="Graphics\Rect.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\System</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -63,9 +63,6 @@
       <Filter>Resource Files\Dependencies</Filter>
     </ClInclude>
     <ClInclude Include="Headers\Misc.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Shapes\View.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Graphics\Headers\Shape2D.h">
@@ -81,7 +78,7 @@
       <Filter>Header Files\System</Filter>
     </ClInclude>
     <ClInclude Include="Graphics\Rect.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\System</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

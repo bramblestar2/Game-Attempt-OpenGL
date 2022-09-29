@@ -1,6 +1,6 @@
 #pragma once
 #include <GLFW/glfw3.h>
-#include "Vector.h"
+#include "Rect.h"
 
 class View
 {
@@ -12,10 +12,12 @@ public:
 	virtual void setCenter(Vector2f pos);
 	virtual void setSize(Vector2f size);
 
+	virtual void resetOffset();
 
-
+	virtual void move(Vector2f);
 private:
-	void init();
+	void init(FloatRect);
 
-	Vector2f position;
+	Vector2f offset;
+	FloatRect rect;
 };

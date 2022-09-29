@@ -148,7 +148,6 @@
     <ClInclude Include="Graphics\Vector.h" />
     <ClInclude Include="Graphics\View.h" />
     <ClInclude Include="Headers\Misc.h" />
-    <ClInclude Include="Shapes\View.h" />
     <ClInclude Include="Window.h" />
   </ItemGroup>
   <ItemGroup>

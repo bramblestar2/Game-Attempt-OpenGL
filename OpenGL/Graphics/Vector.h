@@ -6,6 +6,8 @@ public:
 	Vector2(T x, T y);
 	Vector2();
 
+	Vector2 operator+=(const Vector2 a) { x += a.x; y += a.x; };
+
 	T x, y;
 private:
 	void init(T x, T y);

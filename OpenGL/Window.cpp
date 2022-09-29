@@ -1,5 +1,6 @@
 #include "Window.h"
 #include "Headers/Misc.h"
+#include <iostream>
 
 Window::Window()
 {
@@ -10,7 +11,7 @@ Window::Window()
 
 Window::~Window()
 {
-    delete window;
+    //delete window;
 }
 
 void Window::run()
@@ -18,6 +19,8 @@ void Window::run()
     while (!glfwWindowShouldClose(window))
     {
         update();
+
+        updateDt();
 
         render();
 
@@ -37,6 +40,7 @@ void Window::render()
 void Window::updateDt()
 {
     dt = glfwGetTime() - last_time_update;
+    last_time_update = glfwGetTime();
 }
 
 void Window::update()
